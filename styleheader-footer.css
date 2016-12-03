@@ -1,0 +1,127 @@
+.titre
+{
+  
+  text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;
+  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+  color:#ccc;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  
+  -webkit-box-shadow: 2px 2px 6px #888;  
+  box-shadow:2px 2px 6px #888;  
+  text-align:center;
+  display:inline;
+  line-height:92px;
+  background-image:url(spanish-food-vocabulary.jpg);
+}
+
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+	margin: 150 px
+            ; /* -> 6 */
+}
+h1, h2 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: normal; 
+         margin-right: 10%;
+            margin-left: 10%/* -> 7 */
+}
+h1 {
+	font-size: 3em; /* -> 8 */
+	font-style: italic;
+        text-align: center;
+        color:#66afe9;
+}
+h2 {font-size: 1.8em;text-align: justify;color:#245269}
+h3 {font-size: 1.6em;font-style: italic;align: right;margin-right:120px}
+h4 {font-size: 1em;}
+
+/* Listes */
+ul, ol {
+	margin: .75em 0 .75em 24px;
+	padding: 0; /* -> 9 */
+}
+ul {
+	list-style: square;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Paragraphes */
+p {
+	margin: .75em 0;
+}
+li p, blockquote p {
+	margin: .5em 0;
+}
+
+/* Citations */
+blockquote, q {
+	font-size: 1.1em;
+	font-style: italic;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+}
+blockquote {
+	margin: .75em 0 .75em 24px;
+}
+cite {
+	font-style: italic;
+}
+
+/* Liens */
+a {
+	color: mediumblue;
+	text-decoration: underline;
+}
+a:hover, a:focus {
+	color: crimson;
+}
+a img {
+	border: none; /* -> 10 */
+}
+
+/* Divers éléments de type en-ligne */
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: dimgray;
+}
+
+
+/* --- STYLES POUR CERTAINS CONTENUS DES GABARITS --- */
+
+pre, code {
+	font-size: 100%;
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New", monospace;
+}
+pre {
+	width: 90%;
+	overflow: auto;
+	overflow-y: hidden;
+	margin: .75em 0;
+	padding: 12px;
+	background: #eee;
+	color: #555;
+}
+pre strong {
+	font-weight: normal;
+	color: black;
+}
+#copyright {
+	margin: 20px 0 5px 0;
+	text-align: right;
+	font-size: .8em;
+	color: #848F63;
+}
+#copyright a {
+	color: #848F63;
+	text-decoration: none;
+}
+#copyright a:hover, #copyright a:focus {
+	text-decoration: underline;
+}
