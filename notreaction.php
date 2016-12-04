@@ -1,4 +1,8 @@
 <html>
+
+ 
+<!-- Les header ne sont pas à mettre dans les files "contenu Web" du projet. 
+Ce commentaire permet de regarder comment ça marche quand qqn veut modifier le code -->
  
    <head>
       <meta charset="UTF-8"/>
